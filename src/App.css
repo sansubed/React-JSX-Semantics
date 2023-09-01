@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: gray;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  height: calc(100vh - 4rem);
+  padding: 1rem;
+  background: linear-gradient(#def123, #4b4708);
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(#b334af, #5a97c6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: gray;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
